@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", roboto;
+}
+body {
+  background-color: lightgreen;
+  color: navy;
+}
+.gistlogo {
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 300px) {
+  .clgname {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  header {
+    font-size: 20px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
+  }
+  .heading {
+    color: black;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 45px;
+  }
+  .content {
+    font-size: 18px;
+  }
+  .survey_photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .item {
+    aspect-ratio: 1/1;
+    max-width: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .clgname {
+    font-size: 36px;
+  }
+  header {
+    font-size: 28px;
+  }
+  .heading {
+    font-size: 100px;
+  }
+  .content {
+    font-size: 24px;
+  }
+  .survey_photos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .item {
+    max-width: 500px;
+  }
+}
+
+a {
+  color: maroon;
+
+  text-decoration: none;
+}
+ul {
+  margin: 0 auto;
+  width: fit-content;
+}
+.a {
+  margin: 0 auto;
+}
